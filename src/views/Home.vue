@@ -1,12 +1,9 @@
 <template>
   <div class="home">
-    <h1>Homepage</h1>
-    <p>
-      Lorem ipsum dolor sit, amet consectetur adipisicing elit. Repudiandae fuga
-      aliquam dolores! Quam sequi id provident dicta, sunt laudantium, quaerat
-      ipsa aperiam, nesciunt atque facilis aliquid repellendus rem amet
-      consectetur?
-    </p>
+    <!-- <h1>Homepage</h1> -->
+    <!-- <v-btn class="hidden-md-and-down">click me</v-btn> -->
+    <!-- <v-btn class="hidden-md-and-up">click me</v-btn> -->
+    <v-btn class="hidden-sm-only">click me</v-btn>
   </div>
 </template>
 
