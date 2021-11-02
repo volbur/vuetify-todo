@@ -18,10 +18,7 @@
 
     <v-navigation-drawer v-model="drawer">
       <v-list nav dense>
-        <v-list-item-group
-          v-model="group"
-          active-class="deep-purple--text text--accent-4"
-        >
+        <v-list-item-group active-class="deep-purple--text text--accent-4">
           <v-list-item
             v-for="(link, i) in links"
             :key="i"
